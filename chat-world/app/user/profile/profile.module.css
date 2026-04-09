@@ -1,0 +1,72 @@
+.container {
+  min-height: 100vh;
+  background: #0f172a;
+  color: white;
+  padding: 30px;
+}
+
+/* Profile Card */
+.card {
+  background: #020617;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.email {
+  color: #94a3b8;
+}
+
+.bio {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Buttons */
+.actions {
+  margin-top: 20px;
+}
+
+.actions button {
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  background: #38bdf8;
+}
+
+/* Friends Section */
+.friendsSection {
+  margin-top: 40px;
+}
+
+.friendCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.friendCard button {
+  background: #38bdf8;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}

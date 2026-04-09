@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  height: 100vh;
+  background: #0f172a;
+  color: white;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 25%;
+  background: #020617;
+  border-right: 1px solid #1e293b;
+  padding: 20px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.user {
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.user:hover {
+  background: #1e293b;
+}
+
+.active {
+  background: #38bdf8;
+  color: black;
+}
+
+/* Chat Area */
+.chatArea {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  padding: 15px;
+  border-bottom: 1px solid #1e293b;
+}
+
+/* Messages */
+.messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.myMessage {
+  background: #38bdf8;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  align-self: flex-end;
+  max-width: 60%;
+}
+
+.theirMessage {
+  background: #1e293b;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  max-width: 60%;
+}
+
+/* Input */
+.inputArea {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #1e293b;
+}
+
+.inputArea input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 10px;
+}
+
+.inputArea button {
+  padding: 10px 20px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
